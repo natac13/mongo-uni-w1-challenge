@@ -1,0 +1,27 @@
+{
+  "name": "hw1-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natac13/mongo-uni-w1-challenge.git"
+  },
+  "author": "Sean Campbell <sean.campbell13@gmail.com> (http://seancampbellnatac.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natac13/mongo-uni-w1-challenge/issues"
+  },
+  "homepage": "https://github.com/natac13/mongo-uni-w1-challenge#readme",
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "express": "4.13.4",
+    "jade": "1.11.0",
+    "mongodb": "2.1.7",
+    "mongoose": "4.4.7"
+  }
+}

@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+  body
+    form(method='post' action='/api/v1/movies')
+      fieldset
+        legend Movies
+        label Title
+        input(type='text' name='title' required='required')
+        br
+        label Year
+        input(type='number' name='year' required='required')
+        br
+        label IMDB url
+        input(type='text' name='imdb' required='required')
+        br
+        button(type='submit' value='Submit') Submit
